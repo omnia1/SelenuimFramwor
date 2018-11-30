@@ -1,0 +1,281 @@
+# Created at 2018-11-26T17:37:48.785
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2018-11-26T17:38:06.999
+Unexpected IOException: 8,1,Tests.myAccountTest,UserCanRegisterSuccessfully(Tests.myAccountTest),null,null,null,null,myAccountTest.UserCanRegisterSuccessfully:32 \00BB NullPointer,java.lang.NullPointerException\000A\0009at Tests.myAccountTest.UserCanRegisterSuccessfully(myAccountTest.java:32)\000A
+
+
+# Created at 2018-11-26T17:38:07.029
+Unexpected IOException with stream: Faied TestCase
+
+
+# Created at 2018-11-26T17:38:07.036
+Unexpected IOException with stream: Taking ScreenSgot .....
+
+
+# Created at 2018-11-26T17:38:07.050
+Unexpected IOException: 8,1,Tests.myAccountTest,ScreenShotOnFailure(Tests.myAccountTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=70.0.3538.102)\000A  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.8.1'\002C revision: '6e95a6684b'\002C time: '2017-12-01T18:33:54.468Z'\000ASystem info: host: 'OYEHIA'\002C ip: '222.222.100.238'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_77'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371...\002C userDataDir: C:\005CUsers\005Coyehia\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:60645}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 70.0.3538.102\002C webStorageEnabled: true}\000ASession ID: 2982a50e3e830bc281389a96541dd2ca,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=70.0.3538.102)\000A  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.8.1'\002C revision: '6e95a6684b'\002C time: '2017-12-01T18:33:54.468Z'\000ASystem info: host: 'OYEHIA'\002C ip: '222.222.100.238'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_77'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371...\002C userDataDir: C:\005CUsers\005Coyehia\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:60645}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 70.0.3538.102\002C webStorageEnabled: true}\000ASession ID: 2982a50e3e830bc281389a96541dd2ca,myAccountTest>TestBase.ScreenShotOnFailure:81 \00BB NoSuchWindow no such window: t...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=70.0.3538.102)\000A  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.8.1'\002C revision: '6e95a6684b'\002C time: '2017-12-01T18:33:54.468Z'\000ASystem info: host: 'OYEHIA'\002C ip: '222.222.100.238'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_77'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371...\002C userDataDir: C:\005CUsers\005Coyehia\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:60645}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 70.0.3538.102\002C webStorageEnabled: true}\000ASession ID: 2982a50e3e830bc281389a96541dd2ca\000A
+
+
+# Created at 2018-11-26T17:38:07.064
+Unexpected IOException: 5,1,Tests.registeredUserCheckoutTest,UserCanRegisterSuccessfully(Tests.registeredUserCheckoutTest),Tests.registeredUserCheckoutTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.074
+Unexpected IOException: 9,1,Tests.registeredUserCheckoutTest,UserCanRegisterSuccessfully(Tests.registeredUserCheckoutTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.085
+Unexpected IOException: 9,1,Tests.registeredUserCheckoutTest,ScreenShotOnFailure(Tests.registeredUserCheckoutTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.093
+Unexpected IOException: 5,1,Tests.AddProductToShoopingCart,UserCanAddItemToShoppingCart(Tests.AddProductToShoopingCart),Tests.AddProductToShoopingCart,null,null
+
+
+# Created at 2018-11-26T17:38:07.103
+Unexpected IOException: 9,1,Tests.AddProductToShoopingCart,UserCanAddItemToShoppingCart(Tests.AddProductToShoopingCart),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.113
+Unexpected IOException: 9,1,Tests.AddProductToShoopingCart,ScreenShotOnFailure(Tests.AddProductToShoopingCart),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.121
+Unexpected IOException: 5,1,Tests.addProductReviewTest,userCanSearchForProdct(Tests.addProductReviewTest),Tests.addProductReviewTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.129
+Unexpected IOException: 9,1,Tests.addProductReviewTest,userCanSearchForProdct(Tests.addProductReviewTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.137
+Unexpected IOException: 9,1,Tests.addProductReviewTest,ScreenShotOnFailure(Tests.addProductReviewTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.145
+Unexpected IOException: 5,1,Tests.addProductToWishListTest,userCanAddProductToWishList(Tests.addProductToWishListTest),Tests.addProductToWishListTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.154
+Unexpected IOException: 9,1,Tests.addProductToWishListTest,userCanAddProductToWishList(Tests.addProductToWishListTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.166
+Unexpected IOException: 9,1,Tests.addProductToWishListTest,ScreenShotOnFailure(Tests.addProductToWishListTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.174
+Unexpected IOException: 5,1,Tests.addToCompareTest,userCanClearCompareList(Tests.addToCompareTest),Tests.addToCompareTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.191
+Unexpected IOException: 9,1,Tests.addToCompareTest,userCanClearCompareList(Tests.addToCompareTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.202
+Unexpected IOException: 9,1,Tests.addToCompareTest,ScreenShotOnFailure(Tests.addToCompareTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.216
+Unexpected IOException: 5,1,Tests.emailFriendTest,userCanSearchForProdct(Tests.emailFriendTest),Tests.emailFriendTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.230
+Unexpected IOException: 9,1,Tests.emailFriendTest,userCanSearchForProdct(Tests.emailFriendTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.241
+Unexpected IOException: 9,1,Tests.emailFriendTest,ScreenShotOnFailure(Tests.emailFriendTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.249
+Unexpected IOException: 5,1,Tests.myAccountTest,RegisterUserCanChnagePassword(Tests.myAccountTest),Tests.myAccountTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.259
+Unexpected IOException: 9,1,Tests.myAccountTest,RegisterUserCanChnagePassword(Tests.myAccountTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.268
+Unexpected IOException: 9,1,Tests.myAccountTest,ScreenShotOnFailure(Tests.myAccountTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.281
+Unexpected IOException: 5,1,Tests.registeredUserCheckoutTest,userCanSearchForProdct(Tests.registeredUserCheckoutTest),Tests.registeredUserCheckoutTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.300
+Unexpected IOException: 9,1,Tests.registeredUserCheckoutTest,userCanSearchForProdct(Tests.registeredUserCheckoutTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.309
+Unexpected IOException: 9,1,Tests.registeredUserCheckoutTest,ScreenShotOnFailure(Tests.registeredUserCheckoutTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.323
+Unexpected IOException: 5,1,Tests.AddProductToShoopingCart,UserCanRemoveItemFromShoppingCard(Tests.AddProductToShoopingCart),Tests.AddProductToShoopingCart,null,null
+
+
+# Created at 2018-11-26T17:38:07.332
+Unexpected IOException: 9,1,Tests.AddProductToShoopingCart,UserCanRemoveItemFromShoppingCard(Tests.AddProductToShoopingCart),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.340
+Unexpected IOException: 9,1,Tests.AddProductToShoopingCart,ScreenShotOnFailure(Tests.AddProductToShoopingCart),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.349
+Unexpected IOException: 5,1,Tests.addProductReviewTest,userCanAddReviewSuccessfully(Tests.addProductReviewTest),Tests.addProductReviewTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.358
+Unexpected IOException: 9,1,Tests.addProductReviewTest,userCanAddReviewSuccessfully(Tests.addProductReviewTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.368
+Unexpected IOException: 9,1,Tests.addProductReviewTest,ScreenShotOnFailure(Tests.addProductReviewTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.380
+Unexpected IOException: 5,1,Tests.addProductToWishListTest,userCanRemoveProductFromWishList(Tests.addProductToWishListTest),Tests.addProductToWishListTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.397
+Unexpected IOException: 9,1,Tests.addProductToWishListTest,userCanRemoveProductFromWishList(Tests.addProductToWishListTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.406
+Unexpected IOException: 9,1,Tests.addProductToWishListTest,ScreenShotOnFailure(Tests.addProductToWishListTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.423
+Unexpected IOException: 5,1,Tests.emailFriendTest,RegisterUserCanSendEmail(Tests.emailFriendTest),Tests.emailFriendTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.433
+Unexpected IOException: 9,1,Tests.emailFriendTest,RegisterUserCanSendEmail(Tests.emailFriendTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.445
+Unexpected IOException: 9,1,Tests.emailFriendTest,ScreenShotOnFailure(Tests.emailFriendTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.457
+Unexpected IOException: 5,1,Tests.myAccountTest,RegisterUserCanLogout(Tests.myAccountTest),Tests.myAccountTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.467
+Unexpected IOException: 9,1,Tests.myAccountTest,RegisterUserCanLogout(Tests.myAccountTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.487
+Unexpected IOException: 9,1,Tests.myAccountTest,ScreenShotOnFailure(Tests.myAccountTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.499
+Unexpected IOException: 5,1,Tests.registeredUserCheckoutTest,UserCanAddItemToShoppingCart(Tests.registeredUserCheckoutTest),Tests.registeredUserCheckoutTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.518
+Unexpected IOException: 9,1,Tests.registeredUserCheckoutTest,UserCanAddItemToShoppingCart(Tests.registeredUserCheckoutTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.531
+Unexpected IOException: 9,1,Tests.registeredUserCheckoutTest,ScreenShotOnFailure(Tests.registeredUserCheckoutTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.544
+Unexpected IOException: 5,1,Tests.addProductReviewTest,RegisterUserCanLogout(Tests.addProductReviewTest),Tests.addProductReviewTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.560
+Unexpected IOException: 9,1,Tests.addProductReviewTest,RegisterUserCanLogout(Tests.addProductReviewTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.574
+Unexpected IOException: 9,1,Tests.addProductReviewTest,ScreenShotOnFailure(Tests.addProductReviewTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.586
+Unexpected IOException: 5,1,Tests.emailFriendTest,RegisterUserCanLogout(Tests.emailFriendTest),Tests.emailFriendTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.595
+Unexpected IOException: 9,1,Tests.emailFriendTest,RegisterUserCanLogout(Tests.emailFriendTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.609
+Unexpected IOException: 9,1,Tests.emailFriendTest,ScreenShotOnFailure(Tests.emailFriendTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.618
+Unexpected IOException: 5,1,Tests.myAccountTest,RegisterCanLoIn(Tests.myAccountTest),Tests.myAccountTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.627
+Unexpected IOException: 9,1,Tests.myAccountTest,RegisterCanLoIn(Tests.myAccountTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.639
+Unexpected IOException: 9,1,Tests.myAccountTest,ScreenShotOnFailure(Tests.myAccountTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.648
+Unexpected IOException: 5,1,Tests.registeredUserCheckoutTest,userCanCheckProductCard(Tests.registeredUserCheckoutTest),Tests.registeredUserCheckoutTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.658
+Unexpected IOException: 9,1,Tests.registeredUserCheckoutTest,userCanCheckProductCard(Tests.registeredUserCheckoutTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.666
+Unexpected IOException: 9,1,Tests.registeredUserCheckoutTest,ScreenShotOnFailure(Tests.registeredUserCheckoutTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.676
+Unexpected IOException: 5,1,Tests.myAccountTest,UserLogout(Tests.myAccountTest),Tests.myAccountTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.686
+Unexpected IOException: 9,1,Tests.myAccountTest,UserLogout(Tests.myAccountTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.694
+Unexpected IOException: 9,1,Tests.myAccountTest,ScreenShotOnFailure(Tests.myAccountTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.702
+Unexpected IOException: 5,1,Tests.registeredUserCheckoutTest,RegisterUserCanLogout(Tests.registeredUserCheckoutTest),Tests.registeredUserCheckoutTest,null,null
+
+
+# Created at 2018-11-26T17:38:07.711
+Unexpected IOException: 9,1,Tests.registeredUserCheckoutTest,RegisterUserCanLogout(Tests.registeredUserCheckoutTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.723
+Unexpected IOException: 9,1,Tests.registeredUserCheckoutTest,ScreenShotOnFailure(Tests.registeredUserCheckoutTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:07.736
+Unexpected IOException: 9,1,Tests.UserRegisterTest,RegisterUserCanLogout(Tests.UserRegisterTest),null,Method UserRegisterTest.RegisterUserCanLogout()[pri:0\002C instance:Tests.UserRegisterTest@5a61f5df] depends on not successfully finished methods,null
+
+
+# Created at 2018-11-26T17:38:07.746
+Unexpected IOException: 9,1,Tests.UserRegisterTest,RegisterCanLoIn(Tests.UserRegisterTest),null,Method UserRegisterTest.RegisterCanLoIn()[pri:0\002C instance:Tests.UserRegisterTest@5a61f5df] depends on not successfully finished methods,null
+
+
+# Created at 2018-11-26T17:38:08.071
+Unexpected IOException: 9,1,Tests.UserRegisterTest,closeDriver(Tests.UserRegisterTest),null,null,null
+
+
+# Created at 2018-11-26T17:38:10.476
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

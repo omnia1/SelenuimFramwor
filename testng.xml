@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UserRegisterSuite" >
+    <parameter name ="browser" value="chrome"></parameter>
+	<test name="Test Suite" preserve-order="false">
+		<classes>
+			<class name="Tests.UserRegisterTest" />
+			<class name="Tests.addProductReviewTest" />
+			<class name="Tests.AddProductToShoopingCart" />
+			<class name="Tests.addProductToWishListTest" />
+			<class name="Tests.addToCompareTest" />
+			<class name="Tests.changeCurrencyTest" />
+			<class name="Tests.ContactUsTest" />
+			<class name="Tests.emailFriendTest" />
+			<class name="Tests.myAccountTest" />
+			<class name="Tests.productHoverMenuTest" />
+			<class name="Tests.registeredUserCheckoutTest" />
+			<class name="Tests.searchProductTest" />
+			<class name="Tests.serchForProductUsingAutoCompleteTest" />
+		</classes>
+	</test>
+</suite> 

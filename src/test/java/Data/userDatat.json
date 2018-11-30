@@ -1,0 +1,8 @@
+[
+{ "firstname" : "sam" ,
+  "lastname" :"yehia" ,
+  "email"    : "cit@tst.com" ,
+  "company"  :"val"  ,
+  "password"  :"123456"
+  }
+  ]

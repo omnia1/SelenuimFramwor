@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [UserRegisterSuite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test Suite(failed)">
+    <classes>
+      <class name="Tests.addProductReviewTest">
+        <methods>
+          <include name="ScreenShotOnFailure"/>
+          <include name="userCanSearchForProdct"/>
+          <include name="UserCanRegisterSuccessfully"/>
+          <include name="RegisterUserCanLogout"/>
+          <include name="userCanAddReviewSuccessfully"/>
+        </methods>
+      </class> <!-- Tests.addProductReviewTest -->
+      <class name="Tests.addProductToWishListTest">
+        <methods>
+          <include name="ScreenShotOnFailure"/>
+          <include name="userCanAddProductToWishList"/>
+          <include name="userCanRemoveProductFromWishList"/>
+        </methods>
+      </class> <!-- Tests.addProductToWishListTest -->
+      <class name="Tests.serchForProductUsingAutoCompleteTest">
+        <methods>
+          <include name="ScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.serchForProductUsingAutoCompleteTest -->
+      <class name="Tests.changeCurrencyTest">
+        <methods>
+          <include name="ScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.changeCurrencyTest -->
+      <class name="Tests.AddProductToShoopingCart">
+        <methods>
+          <include name="ScreenShotOnFailure"/>
+          <include name="UserCanRemoveItemFromShoppingCard"/>
+          <include name="UserCanAddItemToShoppingCart"/>
+        </methods>
+      </class> <!-- Tests.AddProductToShoopingCart -->
+      <class name="Tests.searchProductTest">
+        <methods>
+          <include name="ScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.searchProductTest -->
+      <class name="Tests.addToCompareTest">
+        <methods>
+          <include name="ScreenShotOnFailure"/>
+          <include name="userCanClearCompareList"/>
+        </methods>
+      </class> <!-- Tests.addToCompareTest -->
+      <class name="Tests.emailFriendTest">
+        <methods>
+          <include name="RegisterUserCanLogout"/>
+          <include name="ScreenShotOnFailure"/>
+          <include name="UserCanRegisterSuccessfully"/>
+          <include name="userCanSearchForProdct"/>
+          <include name="RegisterUserCanSendEmail"/>
+        </methods>
+      </class> <!-- Tests.emailFriendTest -->
+      <class name="Tests.UserRegisterTest">
+        <methods>
+          <include name="RegisterUserCanLogout"/>
+          <include name="RegisterCanLoIn"/>
+          <include name="ScreenShotOnFailure"/>
+          <include name="StartDriver"/>
+          <include name="UserCanRegisterSuccessfully"/>
+        </methods>
+      </class> <!-- Tests.UserRegisterTest -->
+      <class name="Tests.registeredUserCheckoutTest">
+        <methods>
+          <include name="userCanSearchForProdct"/>
+          <include name="UserCanRegisterSuccessfully"/>
+          <include name="UserCanAddItemToShoppingCart"/>
+          <include name="RegisterUserCanLogout"/>
+          <include name="userCanCheckProductCard"/>
+        </methods>
+      </class> <!-- Tests.registeredUserCheckoutTest -->
+      <class name="Tests.myAccountTest">
+        <methods>
+          <include name="RegisterUserCanChnagePassword"/>
+          <include name="RegisterUserCanLogout"/>
+          <include name="RegisterCanLoIn"/>
+          <include name="UserCanRegisterSuccessfully"/>
+          <include name="UserLogout"/>
+        </methods>
+      </class> <!-- Tests.myAccountTest -->
+      <class name="Tests.ContactUsTest">
+        <methods>
+          <include name="ScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.ContactUsTest -->
+      <class name="Tests.productHoverMenuTest">
+        <methods>
+          <include name="ScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.productHoverMenuTest -->
+    </classes>
+  </test> <!-- Test Suite(failed) -->
+</suite> <!-- Failed suite [UserRegisterSuite] -->

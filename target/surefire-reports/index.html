@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-UserRegisterSuite">
+              <span class="suite-name border-failed">UserRegisterSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-UserRegisterSuite">
+                    <span>D:\Omnia Files\taf\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-UserRegisterSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-UserRegisterSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-UserRegisterSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-UserRegisterSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-UserRegisterSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-UserRegisterSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods, 3 failed,  23 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-UserRegisterSuite" class="hide-methods failed suite-UserRegisterSuite"> (hide)</a> <!-- hide-methods failed suite-UserRegisterSuite -->
+                      <a href="#" panel-name="suite-UserRegisterSuite" class="show-methods failed suite-UserRegisterSuite"> (show)</a> <!-- show-methods failed suite-UserRegisterSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-UserRegisterSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.UserRegisterTest" hash-for-method="UserCanRegisterSuccessfully">UserCanRegisterSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.addProductReviewTest" hash-for-method="UserCanRegisterSuccessfully">UserCanRegisterSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.emailFriendTest" hash-for-method="UserCanRegisterSuccessfully">UserCanRegisterSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-UserRegisterSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-UserRegisterSuite" class="hide-methods skipped suite-UserRegisterSuite"> (hide)</a> <!-- hide-methods skipped suite-UserRegisterSuite -->
+                      <a href="#" panel-name="suite-UserRegisterSuite" class="show-methods skipped suite-UserRegisterSuite"> (show)</a> <!-- show-methods skipped suite-UserRegisterSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-UserRegisterSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.myAccountTest" hash-for-method="RegisterCanLoIn">RegisterCanLoIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.UserRegisterTest" hash-for-method="RegisterCanLoIn">RegisterCanLoIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.myAccountTest" hash-for-method="RegisterUserCanChnagePassword">RegisterUserCanChnagePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.UserRegisterTest" hash-for-method="RegisterUserCanLogout">RegisterUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.myAccountTest" hash-for-method="RegisterUserCanLogout">RegisterUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.addProductReviewTest" hash-for-method="RegisterUserCanLogout">RegisterUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.registeredUserCheckoutTest" hash-for-method="RegisterUserCanLogout">RegisterUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.emailFriendTest" hash-for-method="RegisterUserCanLogout">RegisterUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.emailFriendTest" hash-for-method="RegisterUserCanSendEmail">RegisterUserCanSendEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.registeredUserCheckoutTest" hash-for-method="UserCanAddItemToShoppingCart">UserCanAddItemToShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.AddProductToShoopingCart" hash-for-method="UserCanAddItemToShoppingCart">UserCanAddItemToShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.myAccountTest" hash-for-method="UserCanRegisterSuccessfully">UserCanRegisterSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.registeredUserCheckoutTest" hash-for-method="UserCanRegisterSuccessfully">UserCanRegisterSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.AddProductToShoopingCart" hash-for-method="UserCanRemoveItemFromShoppingCard">UserCanRemoveItemFromShoppingCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.myAccountTest" hash-for-method="UserLogout">UserLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.addProductToWishListTest" hash-for-method="userCanAddProductToWishList">userCanAddProductToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.addProductReviewTest" hash-for-method="userCanAddReviewSuccessfully">userCanAddReviewSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.registeredUserCheckoutTest" hash-for-method="userCanCheckProductCard">userCanCheckProductCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.addToCompareTest" hash-for-method="userCanClearCompareList">userCanClearCompareList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.addProductToWishListTest" hash-for-method="userCanRemoveProductFromWishList">userCanRemoveProductFromWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.addProductReviewTest" hash-for-method="userCanSearchForProdct">userCanSearchForProdct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.registeredUserCheckoutTest" hash-for-method="userCanSearchForProdct">userCanSearchForProdct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.emailFriendTest" hash-for-method="userCanSearchForProdct">userCanSearchForProdct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-UserRegisterSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-UserRegisterSuite" class="hide-methods passed suite-UserRegisterSuite"> (hide)</a> <!-- hide-methods passed suite-UserRegisterSuite -->
+                      <a href="#" panel-name="suite-UserRegisterSuite" class="show-methods passed suite-UserRegisterSuite"> (show)</a> <!-- show-methods passed suite-UserRegisterSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-UserRegisterSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.ContactUsTest" hash-for-method="UserCanUseContactUs">UserCanUseContactUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.changeCurrencyTest" hash-for-method="userCanChangeCurrency">userCanChangeCurrency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.addToCompareTest" hash-for-method="userCanCompareProduct">userCanCompareProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.changeCurrencyTest" hash-for-method="userCanSearchForProdct">userCanSearchForProdct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.searchProductTest" hash-for-method="userCanSearchForProdct">userCanSearchForProdct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.addProductToWishListTest" hash-for-method="userCanSearchForProdct">userCanSearchForProdct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.AddProductToShoopingCart" hash-for-method="userCanSearchForProdct">userCanSearchForProdct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.serchForProductUsingAutoCompleteTest" hash-for-method="userCanSearchWithAutoSuggest">userCanSearchWithAutoSuggest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UserRegisterSuite" title="Tests.productHoverMenuTest" hash-for-method="userCanSlectSubCategoryFromManiMenu">userCanSlectSubCategoryFromManiMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-UserRegisterSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-UserRegisterSuite" class="panel UserRegisterSuite">
+          <div class="suite-UserRegisterSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.addProductReviewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanRegisterSuccessfully">
+                  </a> <!-- UserCanRegisterSuccessfully -->
+                  <span class="method-name">UserCanRegisterSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.result&quot;}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;OYEHIA&apos;, ip: &apos;222.222.100.238&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\oyehia\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51924}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: aa0b22ac3022b8af97894e1a6504d46c
+*** Element info: {Using=css selector, value=div.result}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at Tests.addProductReviewTest.UserCanRegisterSuccessfully(addProductReviewTest.java:33)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-failed -->
+          <div class="suite-UserRegisterSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.emailFriendTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanRegisterSuccessfully">
+                  </a> <!-- UserCanRegisterSuccessfully -->
+                  <span class="method-name">UserCanRegisterSuccessfully</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at Tests.emailFriendTest.UserCanRegisterSuccessfully(emailFriendTest.java:30)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-failed -->
+          <div class="suite-UserRegisterSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.UserRegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanRegisterSuccessfully">
+                  </a> <!-- UserCanRegisterSuccessfully -->
+                  <span class="method-name">UserCanRegisterSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.result&quot;}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;OYEHIA&apos;, ip: &apos;222.222.100.238&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\oyehia\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51924}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: aa0b22ac3022b8af97894e1a6504d46c
+*** Element info: {Using=css selector, value=div.result}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at Tests.UserRegisterTest.UserCanRegisterSuccessfully(UserRegisterTest.java:24)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-failed -->
+          <div class="suite-UserRegisterSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.addProductReviewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUserCanLogout">
+                  </a> <!-- RegisterUserCanLogout -->
+                  <span class="method-name">RegisterUserCanLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanAddReviewSuccessfully">
+                  </a> <!-- userCanAddReviewSuccessfully -->
+                  <span class="method-name">userCanAddReviewSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearchForProdct">
+                  </a> <!-- userCanSearchForProdct -->
+                  <span class="method-name">userCanSearchForProdct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-skipped -->
+          <div class="suite-UserRegisterSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.addProductToWishListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanAddProductToWishList">
+                  </a> <!-- userCanAddProductToWishList -->
+                  <span class="method-name">userCanAddProductToWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanRemoveProductFromWishList">
+                  </a> <!-- userCanRemoveProductFromWishList -->
+                  <span class="method-name">userCanRemoveProductFromWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-skipped -->
+          <div class="suite-UserRegisterSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.addToCompareTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanClearCompareList">
+                  </a> <!-- userCanClearCompareList -->
+                  <span class="method-name">userCanClearCompareList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-skipped -->
+          <div class="suite-UserRegisterSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.emailFriendTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUserCanLogout">
+                  </a> <!-- RegisterUserCanLogout -->
+                  <span class="method-name">RegisterUserCanLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUserCanSendEmail">
+                  </a> <!-- RegisterUserCanSendEmail -->
+                  <span class="method-name">RegisterUserCanSendEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearchForProdct">
+                  </a> <!-- userCanSearchForProdct -->
+                  <span class="method-name">userCanSearchForProdct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-skipped -->
+          <div class="suite-UserRegisterSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.UserRegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterCanLoIn">
+                  </a> <!-- RegisterCanLoIn -->
+                  <span class="method-name">RegisterCanLoIn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method UserRegisterTest.RegisterCanLoIn()[pri:0, instance:Tests.UserRegisterTest@5a61f5df] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUserCanLogout">
+                  </a> <!-- RegisterUserCanLogout -->
+                  <span class="method-name">RegisterUserCanLogout</span>
+                  <div class="stack-trace">java.lang.Throwable: Method UserRegisterTest.RegisterUserCanLogout()[pri:0, instance:Tests.UserRegisterTest@5a61f5df] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-skipped -->
+          <div class="suite-UserRegisterSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.AddProductToShoopingCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanAddItemToShoppingCart">
+                  </a> <!-- UserCanAddItemToShoppingCart -->
+                  <span class="method-name">UserCanAddItemToShoppingCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanRemoveItemFromShoppingCard">
+                  </a> <!-- UserCanRemoveItemFromShoppingCard -->
+                  <span class="method-name">UserCanRemoveItemFromShoppingCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-skipped -->
+          <div class="suite-UserRegisterSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.registeredUserCheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUserCanLogout">
+                  </a> <!-- RegisterUserCanLogout -->
+                  <span class="method-name">RegisterUserCanLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanAddItemToShoppingCart">
+                  </a> <!-- UserCanAddItemToShoppingCart -->
+                  <span class="method-name">UserCanAddItemToShoppingCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanRegisterSuccessfully">
+                  </a> <!-- UserCanRegisterSuccessfully -->
+                  <span class="method-name">UserCanRegisterSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanCheckProductCard">
+                  </a> <!-- userCanCheckProductCard -->
+                  <span class="method-name">userCanCheckProductCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearchForProdct">
+                  </a> <!-- userCanSearchForProdct -->
+                  <span class="method-name">userCanSearchForProdct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-skipped -->
+          <div class="suite-UserRegisterSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.myAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterCanLoIn">
+                  </a> <!-- RegisterCanLoIn -->
+                  <span class="method-name">RegisterCanLoIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUserCanChnagePassword">
+                  </a> <!-- RegisterUserCanChnagePassword -->
+                  <span class="method-name">RegisterUserCanChnagePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUserCanLogout">
+                  </a> <!-- RegisterUserCanLogout -->
+                  <span class="method-name">RegisterUserCanLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanRegisterSuccessfully">
+                  </a> <!-- UserCanRegisterSuccessfully -->
+                  <span class="method-name">UserCanRegisterSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserLogout">
+                  </a> <!-- UserLogout -->
+                  <span class="method-name">UserLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-skipped -->
+          <div class="suite-UserRegisterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.addProductToWishListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearchForProdct">
+                  </a> <!-- userCanSearchForProdct -->
+                  <span class="method-name">userCanSearchForProdct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-passed -->
+          <div class="suite-UserRegisterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.addToCompareTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanCompareProduct">
+                  </a> <!-- userCanCompareProduct -->
+                  <span class="method-name">userCanCompareProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-passed -->
+          <div class="suite-UserRegisterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.serchForProductUsingAutoCompleteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearchWithAutoSuggest">
+                  </a> <!-- userCanSearchWithAutoSuggest -->
+                  <span class="method-name">userCanSearchWithAutoSuggest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-passed -->
+          <div class="suite-UserRegisterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.changeCurrencyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanChangeCurrency">
+                  </a> <!-- userCanChangeCurrency -->
+                  <span class="method-name">userCanChangeCurrency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearchForProdct">
+                  </a> <!-- userCanSearchForProdct -->
+                  <span class="method-name">userCanSearchForProdct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-passed -->
+          <div class="suite-UserRegisterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.AddProductToShoopingCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearchForProdct">
+                  </a> <!-- userCanSearchForProdct -->
+                  <span class="method-name">userCanSearchForProdct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-passed -->
+          <div class="suite-UserRegisterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.searchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearchForProdct">
+                  </a> <!-- userCanSearchForProdct -->
+                  <span class="method-name">userCanSearchForProdct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-passed -->
+          <div class="suite-UserRegisterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.ContactUsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanUseContactUs">
+                  </a> <!-- UserCanUseContactUs -->
+                  <span class="method-name">UserCanUseContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-passed -->
+          <div class="suite-UserRegisterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.productHoverMenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSlectSubCategoryFromManiMenu">
+                  </a> <!-- userCanSlectSubCategoryFromManiMenu -->
+                  <span class="method-name">userCanSlectSubCategoryFromManiMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UserRegisterSuite-class-passed -->
+        </div> <!-- panel UserRegisterSuite -->
+        <div panel-name="test-xml-UserRegisterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Omnia Files\taf\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;UserRegisterSuite&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test name=&quot;Test Suite&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.UserRegisterTest&quot;/&gt;
+      &lt;class name=&quot;Tests.addProductReviewTest&quot;/&gt;
+      &lt;class name=&quot;Tests.AddProductToShoopingCart&quot;/&gt;
+      &lt;class name=&quot;Tests.addProductToWishListTest&quot;/&gt;
+      &lt;class name=&quot;Tests.addToCompareTest&quot;/&gt;
+      &lt;class name=&quot;Tests.changeCurrencyTest&quot;/&gt;
+      &lt;class name=&quot;Tests.ContactUsTest&quot;/&gt;
+      &lt;class name=&quot;Tests.emailFriendTest&quot;/&gt;
+      &lt;class name=&quot;Tests.myAccountTest&quot;/&gt;
+      &lt;class name=&quot;Tests.productHoverMenuTest&quot;/&gt;
+      &lt;class name=&quot;Tests.registeredUserCheckoutTest&quot;/&gt;
+      &lt;class name=&quot;Tests.searchProductTest&quot;/&gt;
+      &lt;class name=&quot;Tests.serchForProductUsingAutoCompleteTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Suite --&gt;
+&lt;/suite&gt; &lt;!-- UserRegisterSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-UserRegisterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for UserRegisterSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Suite (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-UserRegisterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for UserRegisterSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-UserRegisterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for UserRegisterSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_UserRegisterSuite');
+function tableData_UserRegisterSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UserCanRegisterSuccessfully')
+data.setCell(0, 2, 'Tests.addProductReviewTest')
+data.setCell(0, 3, 126461);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'UserCanRegisterSuccessfully')
+data.setCell(1, 2, 'Tests.UserRegisterTest')
+data.setCell(1, 3, 125585);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'UserCanRegisterSuccessfully')
+data.setCell(2, 2, 'Tests.emailFriendTest')
+data.setCell(2, 3, 82523);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'userCanCompareProduct')
+data.setCell(3, 2, 'Tests.addToCompareTest')
+data.setCell(3, 3, 23168);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userCanSearchForProdct')
+data.setCell(4, 2, 'Tests.changeCurrencyTest')
+data.setCell(4, 3, 12329);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'userCanSearchForProdct')
+data.setCell(5, 2, 'Tests.addProductToWishListTest')
+data.setCell(5, 3, 7640);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'userCanChangeCurrency')
+data.setCell(6, 2, 'Tests.changeCurrencyTest')
+data.setCell(6, 3, 6721);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'UserCanUseContactUs')
+data.setCell(7, 2, 'Tests.ContactUsTest')
+data.setCell(7, 3, 5611);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'userCanSearchForProdct')
+data.setCell(8, 2, 'Tests.searchProductTest')
+data.setCell(8, 3, 5599);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'userCanSearchForProdct')
+data.setCell(9, 2, 'Tests.AddProductToShoopingCart')
+data.setCell(9, 3, 4477);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'userCanSearchWithAutoSuggest')
+data.setCell(10, 2, 'Tests.serchForProductUsingAutoCompleteTest')
+data.setCell(10, 3, 4369);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'userCanSlectSubCategoryFromManiMenu')
+data.setCell(11, 2, 'Tests.productHoverMenuTest')
+data.setCell(11, 3, 3943);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'UserCanRemoveItemFromShoppingCard')
+data.setCell(12, 2, 'Tests.AddProductToShoopingCart')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'userCanAddReviewSuccessfully')
+data.setCell(13, 2, 'Tests.addProductReviewTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'RegisterCanLoIn')
+data.setCell(14, 2, 'Tests.myAccountTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'RegisterUserCanChnagePassword')
+data.setCell(15, 2, 'Tests.myAccountTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'UserCanAddItemToShoppingCart')
+data.setCell(16, 2, 'Tests.registeredUserCheckoutTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'RegisterUserCanSendEmail')
+data.setCell(17, 2, 'Tests.emailFriendTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'userCanSearchForProdct')
+data.setCell(18, 2, 'Tests.addProductReviewTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'RegisterUserCanLogout')
+data.setCell(19, 2, 'Tests.UserRegisterTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'UserCanRegisterSuccessfully')
+data.setCell(20, 2, 'Tests.myAccountTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'RegisterUserCanLogout')
+data.setCell(21, 2, 'Tests.myAccountTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'RegisterUserCanLogout')
+data.setCell(22, 2, 'Tests.addProductReviewTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'userCanRemoveProductFromWishList')
+data.setCell(23, 2, 'Tests.addProductToWishListTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'RegisterUserCanLogout')
+data.setCell(24, 2, 'Tests.registeredUserCheckoutTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'UserCanRegisterSuccessfully')
+data.setCell(25, 2, 'Tests.registeredUserCheckoutTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'userCanAddProductToWishList')
+data.setCell(26, 2, 'Tests.addProductToWishListTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'userCanClearCompareList')
+data.setCell(27, 2, 'Tests.addToCompareTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'userCanSearchForProdct')
+data.setCell(28, 2, 'Tests.registeredUserCheckoutTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'UserLogout')
+data.setCell(29, 2, 'Tests.myAccountTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'userCanCheckProductCard')
+data.setCell(30, 2, 'Tests.registeredUserCheckoutTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'userCanSearchForProdct')
+data.setCell(31, 2, 'Tests.emailFriendTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'UserCanAddItemToShoppingCart')
+data.setCell(32, 2, 'Tests.AddProductToShoopingCart')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'RegisterUserCanLogout')
+data.setCell(33, 2, 'Tests.emailFriendTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'RegisterCanLoIn')
+data.setCell(34, 2, 'Tests.UserRegisterTest')
+data.setCell(34, 3, 0);
+window.suiteTableData['UserRegisterSuite']= { tableData: data, tableDiv: 'times-div-UserRegisterSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-UserRegisterSuite">
+              </div> <!-- times-div-UserRegisterSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-UserRegisterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for UserRegisterSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-UserRegisterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">24 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.addProductReviewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.addProductToWishListTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.serchForProductUsingAutoCompleteTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.changeCurrencyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.AddProductToShoopingCart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.searchProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.addToCompareTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.emailFriendTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.registeredUserCheckoutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.myAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.ContactUsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.productHoverMenuTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-UserRegisterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.UserRegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">StartDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.ContactUsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanUseContactUs</span>
+                <span class="method-start">15276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=UserCanUseContactUs status=SUCCESS method=ContactUsTest.UserCanUseContactUs()[pri:0...)</span>
+                <span class="method-start">20888 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.changeCurrencyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanChangeCurrency</span>
+                <span class="method-start">20889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=userCanChangeCurrency status=SUCCESS method=changeCurrencyTest.userCanChangeCurrenc...)</span>
+                <span class="method-start">27610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">userCanSearchForProdct</span>
+                <span class="method-start">27610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=userCanSearchForProdct status=SUCCESS method=changeCurrencyTest.userCanSearchForPro...)</span>
+                <span class="method-start">39940 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.productHoverMenuTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanSlectSubCategoryFromManiMenu</span>
+                <span class="method-start">39940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=userCanSlectSubCategoryFromManiMenu status=SUCCESS method=productHoverMenuTest.user...)</span>
+                <span class="method-start">43884 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.searchProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanSearchForProdct</span>
+                <span class="method-start">43884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=userCanSearchForProdct status=SUCCESS method=searchProductTest.userCanSearchForProd...)</span>
+                <span class="method-start">49483 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.serchForProductUsingAutoCompleteTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanSearchWithAutoSuggest</span>
+                <span class="method-start">49484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=userCanSearchWithAutoSuggest status=SUCCESS method=serchForProductUsingAutoComplete...)</span>
+                <span class="method-start">53854 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.AddProductToShoopingCart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanSearchForProdct</span>
+                <span class="method-start">53854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=userCanSearchForProdct status=SUCCESS method=AddProductToShoopingCart.userCanSearch...)</span>
+                <span class="method-start">58332 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.UserRegisterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserCanRegisterSuccessfully</span>
+                <span class="method-start">58332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=UserCanRegisterSuccessfully status=FAILURE method=UserRegisterTest.UserCanRegisterS...)</span>
+                <span class="method-start">183933 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.addProductReviewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserCanRegisterSuccessfully</span>
+                <span class="method-start">185053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=UserCanRegisterSuccessfully status=FAILURE method=addProductReviewTest.UserCanRegis...)</span>
+                <span class="method-start">311515 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.addProductToWishListTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanSearchForProdct</span>
+                <span class="method-start">311848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=userCanSearchForProdct status=SUCCESS method=addProductToWishListTest.userCanSearch...)</span>
+                <span class="method-start">319488 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.addToCompareTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanCompareProduct</span>
+                <span class="method-start">319488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFailure([TestResult name=userCanCompareProduct status=SUCCESS method=addToCompareTest.userCanCompareProduct(...)</span>
+                <span class="method-start">342656 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.emailFriendTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserCanRegisterSuccessfully</span>
+                <span class="method-start">342657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ScreenShotOnFailure([TestResult name=UserCanRegisterSuccessfully status=FAILURE method=emailFriendTest.UserCanRegisterSu...)</span>
+                <span class="method-start">425181 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.myAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanRegisterSuccessfully</span>
+                <span class="method-start">425189 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.AddProductToShoopingCart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanAddItemToShoppingCart</span>
+                <span class="method-start">425190 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.registeredUserCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanRegisterSuccessfully</span>
+                <span class="method-start">425190 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.addProductToWishListTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanAddProductToWishList</span>
+                <span class="method-start">425191 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.addToCompareTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanClearCompareList</span>
+                <span class="method-start">425191 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.addProductReviewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanSearchForProdct</span>
+                <span class="method-start">425191 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.myAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterUserCanChnagePassword</span>
+                <span class="method-start">425192 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.emailFriendTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanSearchForProdct</span>
+                <span class="method-start">425192 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.AddProductToShoopingCart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanRemoveItemFromShoppingCard</span>
+                <span class="method-start">425193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.registeredUserCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanSearchForProdct</span>
+                <span class="method-start">425193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.addProductReviewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanAddReviewSuccessfully</span>
+                <span class="method-start">425194 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.emailFriendTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterUserCanSendEmail</span>
+                <span class="method-start">425195 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.addProductToWishListTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanRemoveProductFromWishList</span>
+                <span class="method-start">425195 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.myAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterUserCanLogout</span>
+                <span class="method-start">425196 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.registeredUserCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanAddItemToShoppingCart</span>
+                <span class="method-start">425196 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.myAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterCanLoIn</span>
+                <span class="method-start">425197 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.addProductReviewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterUserCanLogout</span>
+                <span class="method-start">425197 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.emailFriendTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterUserCanLogout</span>
+                <span class="method-start">425197 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.myAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserLogout</span>
+                <span class="method-start">425198 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.registeredUserCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanCheckProductCard</span>
+                <span class="method-start">425198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RegisterUserCanLogout</span>
+                <span class="method-start">425199 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
