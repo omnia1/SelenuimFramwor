@@ -8,7 +8,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -58,11 +61,26 @@ public class TestBase extends AbstractTestNGCucumberTests
 
 
 		}
+		//headless browser options
+		else if (browserName.equalsIgnoreCase("headless")) {
+			
+			DesiredCapabilities caps =new DesiredCapabilities();
+			caps.setJavascriptEnabled(true);
+			caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY ,
+				 System.getProperty("user.dir")+"/Drivers/phantomjs.exe");
+			String [] phantomsjsArg= {"--web-security=no","--ignore--ssl-errors=yes"};
+			caps.setCapability(PhantomJSDriverService.PHANTOMJS_CLI_ARGS, phantomsjsArg);
+			driver =new PhantomJSDriver(caps);
+		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		driver.navigate().to("https://demo.nopcommerce.com/register");
 
 	}
+	
+	
+	 
+	
 	@AfterSuite
 	public void closeDriver()
 	{
